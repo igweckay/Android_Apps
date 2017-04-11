@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:background="@drawable/sharebacknocircles" android:layout_height="match_parent">
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/facebookbtn"
+        android:background="@drawable/facebook"
+        android:layout_marginBottom="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageButton3"
+        android:onClick="onBtn3Clicked"
+        />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/twitterbtn"
+        android:background="@drawable/twitter"
+        android:layout_alignTop="@+id/facebookbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:onClick="onBtn2Clicked"
+        />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageButton3"
+        android:layout_below="@+id/twitterbtn"
+        android:background="@drawable/connectlater"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton"
+        android:background="@drawable/email"
+        android:layout_alignTop="@+id/twitterbtn"
+        android:layout_toLeftOf="@+id/imageButton3"
+        android:onClick="onBtn1Clicked"
+        />
+</RelativeLayout>
+

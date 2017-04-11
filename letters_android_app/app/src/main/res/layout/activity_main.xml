@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/frontpagetwo"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:id="@+id/explorebtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/explore"
+        android:layout_marginBottom="30dp"/>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/readbtn"
+        android:layout_above="@+id/explorebtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/readbtn"/>
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/sharebtn"
+        android:layout_alignTop="@+id/readbtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/sharebtn"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:id="@+id/compilebtn"
+        android:layout_alignTop="@+id/readbtn"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/compilebtn"/>
+
+</RelativeLayout>
