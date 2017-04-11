@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kayigwe/Desktop/InfoTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/kayigwe/Desktop/InfoTracker/app/build/intermediates/pre-dexed/debug/classes-c74e8440d42bf1edf273ef25196f20ef72f3ea83.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/kayigwe/Desktop/InfoTracker/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-f37ff4d3b82985ca1f589a9094a05d04ceb8e60f.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/Desktop/InfoTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/kayigwe/Desktop/InfoTracker/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-f8cfe97fc65648e5789fac62926d82874d624a38.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/Desktop/InfoTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/kayigwe/Desktop/InfoTracker/app/build/intermediates/pre-dexed/debug/classes-746ca642d942b2e0f155f294e6d8cbef0cd82308.jar" />
+    </item>
+
+</items>

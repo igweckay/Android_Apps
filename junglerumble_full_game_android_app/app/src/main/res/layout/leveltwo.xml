@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="373dp"
+        android:background="@drawable/backgdtwo"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/vs_other_cat"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/relativeLayout">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:id="@+id/vs_other_yourlife"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/vs_other_otherlife"
+            android:layout_alignTop="@+id/vs_other_yourlife"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:id="@+id/vs_other_level"
+            android:layout_below="@+id/vs_other_yourlife"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="43dp" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView3"
+            android:background="@drawable/playerone"
+            android:layout_above="@+id/vs_other_otherlife"
+            android:layout_alignRight="@+id/vs_other_yourlife"
+            android:layout_alignEnd="@+id/vs_other_yourlife" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:id="@+id/imageView4"
+            android:background="@drawable/computername"
+            android:layout_above="@+id/vs_other_otherlife"
+            android:layout_alignRight="@+id/vs_other_otherlife"
+            android:layout_alignEnd="@+id/vs_other_otherlife" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:id="@+id/vs_other_otherShow"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/vs_other_otherlife"
+            android:layout_alignStart="@+id/vs_other_otherlife"
+            android:layout_marginBottom="115dp" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:id="@+id/plyrShow"
+            android:layout_alignBottom="@+id/vs_other_otherShow"
+            android:layout_alignRight="@+id/vs_other_yourlife"
+            android:layout_alignEnd="@+id/vs_other_yourlife" />
+        <TextView
+            android:id="@+id/textScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="score:"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_toStartOf="@+id/vs_other_level"
+            android:layout_toLeftOf="@+id/vs_other_level"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_alignRight="@+id/vs_other_yourlife"
+            android:layout_alignEnd="@+id/vs_other_yourlife" />
+        <TextView
+            android:id="@+id/textCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="round:"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/vs_other_level"
+            android:layout_alignEnd="@+id/vs_other_level" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/winlose"
+            android:layout_above="@+id/vs_other_otherShow"
+            android:layout_alignLeft="@+id/vs_other_yourlife"
+            android:layout_alignStart="@+id/vs_other_yourlife" />
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:id="@+id/vs_other_cat"
+        android:background="@drawable/cat"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/elephant"
+        android:layout_toStartOf="@+id/elephant" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/mouse"
+        android:id="@+id/vs_other_mouse"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="75dp"
+        android:background="@drawable/elephant"
+        android:id="@+id/elephant"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="47dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="cat image" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/dog"
+        android:background="@drawable/dog"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/vs_other_mouse"
+        android:layout_toEndOf="@+id/vs_other_mouse" />
+
+    <ImageButton
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:id="@+id/pig"
+        android:background="@drawable/rabbit"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

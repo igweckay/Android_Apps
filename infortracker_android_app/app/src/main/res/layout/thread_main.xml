@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teamrocket.infotracker.Thread"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/second"
+        android:background="#303f9f"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/third"
+            android:layout_weight="2"
+            android:padding="5dp"
+            android:paddingLeft="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/forth"
+                android:layout_weight="1"
+                android:gravity="left|center"
+                android:layout_gravity="right">
+
+
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/rl1"
+                android:adjustViewBounds="false"
+                android:layout_gravity="right"
+                android:contentDescription="@string/logo" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView android:text="Choose the number of thread:"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/second"
+        android:layout_alignLeft="@+id/textView26"
+        android:layout_alignStart="@+id/textView26" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="one thread"
+        android:id="@+id/button"
+        android:background="#ffc107"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/second"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="two threads"
+        android:id="@+id/button2"
+        android:background="#ffc107"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="cpu usage"
+        android:textColor="#303f9f"
+        android:id="@+id/textView23"
+        android:layout_margin="15dp"
+        android:layout_below="@+id/textView26"
+        android:layout_marginBottom="166dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="four threads"
+        android:id="@+id/button3"
+        android:background="#303f9f"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="eight threads"
+        android:id="@+id/button4"
+        android:background="#303f9f"
+        android:textColor="#ffffff"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="The multiplexing of two matrix will be running."
+        android:id="@+id/textView26"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/button4"
+        android:layout_alignLeft="@+id/textView23"
+        android:layout_alignStart="@+id/textView23" />
+
+</RelativeLayout>

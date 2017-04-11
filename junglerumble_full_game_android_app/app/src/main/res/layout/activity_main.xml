@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/thin_phone"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/btn_vs_computer"
+        android:src="@drawable/computer"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="240dp"
+        android:scaleType="fitXY"
+        android:contentDescription="start_game_vs_computer"
+        android:background="@android:color/transparent"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/opponent"
+        android:id="@+id/btn_vs_opponent"
+        android:layout_below="@+id/btn_vs_computer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/btn_instructions"
+        android:background="@drawable/instructions"
+        android:layout_below="@+id/btn_vs_opponent"
+        android:layout_alignRight="@+id/btn_vs_opponent"
+        android:layout_alignEnd="@+id/btn_vs_opponent" />
+
+
+</RelativeLayout>

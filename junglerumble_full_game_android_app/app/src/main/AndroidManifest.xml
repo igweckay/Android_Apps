@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kayigwe.testerjungle" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LevelOne" >
+        </activity>
+        <activity android:name=".LevelTwo" >
+        </activity>
+        <activity android:name=".LevelThree" >
+        </activity>
+        <activity android:name=".Transition" >
+        </activity>
+        <activity android:name=".TransitionTwo" >
+        </activity>
+        <activity android:name=".TransitionThree" >
+        </activity>
+        <activity android:name=".Congratulations" >
+        </activity>
+        <activity android:name=".Instructions" >
+        </activity>
+        <activity
+            android:name=".vs_otherplayer_home_Activity"
+            android:label="@string/title_activity_vs_otherplayer_home_" >
+        </activity>
+        <activity
+            android:name=".vs_otherplayer_level1_Activity"
+            android:label="@string/title_activity_vs_otherplayer_level1_" >
+        </activity>
+    </application>
+
+</manifest>
