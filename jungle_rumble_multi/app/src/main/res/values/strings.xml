@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TesterJungle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vs_otherplayer_home_">vs_otherplayer_home_Activity</string>
+    <string name="title_activity_vs_otherplayer_level1_">vs_otherplayer_level1_Activity</string>
+</resources>

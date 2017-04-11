@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/background"
+        android:background="@drawable/background" />
+
+    <TextView
+        android:id="@+id/cmpShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:text="Computer"
+        android:layout_marginTop="70dp"
+        android:textSize="30dp"
+        android:textColor="#fffff309"/>
+
+    <TextView
+        android:id="@+id/playerShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:text="Player"
+        android:textSize="30dp"
+        android:textColor="#ffffd50b"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMouse"
+        android:layout_alignLeft="@+id/playerShow"
+        android:contentDescription="mouse"
+        android:background="@drawable/rat"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/cmpShow" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCat"
+        android:layout_below="@+id/btnMouse"
+        android:background="@drawable/cat"
+        android:layout_alignLeft="@+id/playerShow"
+        android:contentDescription="cat"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/cmpShow"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnElephant"
+        android:layout_below="@+id/btnCat"
+        android:background="@drawable/elephant"
+        android:layout_alignLeft="@+id/playerShow"
+        android:contentDescription="elephant"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/cmpShow"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewCmp"
+        android:layout_alignTop="@+id/btnCat"
+        android:layout_below="@id/cmpShow"
+        android:layout_marginLeft="20dp"
+        android:contentDescription="cmpViewsDes"/>
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/viewCmp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:textColor="#ffffff"
+        android:text="score:"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/textCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textScore"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:text="round:"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>

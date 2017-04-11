@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/thisone">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/btn_back"
+        android:layout_gravity="right"
+        android:layout_weight="0.57"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Instructions"
+        android:textSize="40dp"
+        android:id="@+id/textView5"
+        android:layout_weight="0.57"
+        android:layout_alignBottom="@+id/btn_back"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ScrollView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="70dp"
+    android:layout_weight="0.57"
+        android:id="@+id/scrollView">
+
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jungle Rumble vs Another Player Instructions
+Select your opponent
+If your opponent is another player, select “connect” to pair the two phones together to allow
+communication. Follow directions on screen to enable communication between both devices. Also, when in the game, make sure that both players press an animal within 1 second of each other, or just say “rock paper scissors”, then you both press an animal.
+3)  Choose the animal that you would like to battle with and wait for the result.
+4) There are 3 animals and you have 5 points of life.
+Elephant beats cat, cat beats mouse, and mouse beats elephant
+
+Jungle Rumble vs the Computer Instructions
+1)  Choose the animal that you would like to battle with and wait for the result.
+2) In level 1, there are 3 animals and you have 5 points of life.
+Elephant > cat, cat > mouse, mouse > elephant
+3) In level 2, Dog and Rabbit are added to game and you have 7 points of life. This time you are playing with 5 animals
+Elephant beats > cat and dog
+Mouse beats > elephant and dog
+Dog beats > cat and rabbit
+Rabbit beats > mouse and elephant
+Cat beats > mouse and rabbit
+4) In level 3, Giraffe and Pig are added to the game and you have 8 points of life.
+Mouse beats > elephant, giraffe, and dog
+Elephant beats > cat, dog, and rabbit
+Dog beats > cat, rabbit, and pig
+Pig beats > mouse, elephant, and giraffe
+Cat beats > mouse, pig, and rabbit
+Rabbit beats > mouse, pig, and giraffe
+Giraffe beats > dog, cat, and elephant
+4) Have Fun!!!! "
+        android:id="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/scrollView" />
+</RelativeLayout>
