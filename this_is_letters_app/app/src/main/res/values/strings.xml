@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">This_Is_Letters</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="logostring">logo for Letters</string>
+    <string name="app_real_name">Letters</string>
+    <string name="read">Read</string>
+    <string name="compile">Compile</string>
+    <string name="share">Share</string>
+    <string name="letters">Letters</string>
+    <string name="explore">Explore ...</string>
+</resources>

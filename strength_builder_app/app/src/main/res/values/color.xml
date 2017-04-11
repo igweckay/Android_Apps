@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title">#000000</color>
+    <color name="text">#000000</color>
+    <color name="btn_chosen">#999999</color>
+    <color name="btn_default">#303233</color>
+    <color name="sky_blue">#00ccff</color>
+    <color name="background">#ffffff</color>
+</resources>

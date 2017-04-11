@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:layout_margin="2dp"
+        android:id="@+id/position" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:layout_margin="2dp"
+        android:id="@+id/date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:layout_margin="2dp"
+        android:id="@+id/time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/data" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:layout_margin="2dp"
+        android:id="@+id/improve" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:background="@drawable/blue_button"
+            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:id="@+id/button1"
+            android:layout_weight="1"
+            android:text="@string/start"
+            style="@style/button_text"/>
+
+        <Button
+            android:background="@drawable/blue_button"
+            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:id="@+id/button2"
+            android:layout_weight="1"
+            android:text="@string/track"
+            style="@style/button_text"/>
+
+        <Button
+            android:background="@drawable/blue_button"
+            android:layout_height="50dp"
+            android:layout_width="30dp"
+            android:id="@+id/button3"
+            android:layout_weight="1"
+            android:text="@string/log"
+            android:textColor="#ffffff"
+            style="@style/button_text"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

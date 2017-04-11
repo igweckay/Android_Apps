@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:id="@+id/main_layout">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/logoimageView"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/logostring"
+        android:layout_marginTop="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#f1f1f1"
+        android:layout_marginBottom="114dp"
+        android:id="@+id/view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/readimageView"
+        android:src="@drawable/read"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/view"
+        android:layout_toLeftOf="@+id/logoimageView"
+        android:layout_toStartOf="@+id/logoimageView" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/compileimageView"
+        android:src="@drawable/compile"
+        android:layout_alignBottom="@+id/shareimageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/shareimageView"
+        android:src="@drawable/share"
+        android:layout_alignBottom="@+id/readimageView"
+        android:layout_toRightOf="@+id/logoimageView"
+        android:layout_toEndOf="@+id/logoimageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#a8a8a8"
+        android:text="@string/read"
+        android:id="@+id/textView"
+        android:layout_above="@+id/compileimageView"
+        android:layout_alignLeft="@+id/readimageView"
+        android:layout_alignStart="@+id/readimageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/compile"
+        android:textColor="#a8a8a8"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/compileimageView"
+        android:layout_alignStart="@+id/compileimageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/share"
+        android:textColor="#a8a8a8"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/shareimageView"
+        android:layout_alignStart="@+id/shareimageView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/explore"
+        android:layout_marginTop="30dp"
+        android:id="@+id/button"
+        android:textSize="15dp"
+        android:background="#2BD3D1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/letters"
+        android:textColor="#2BD3D1"
+        android:id="@+id/textView4"
+        android:fontFamily="sans-serif-thin"
+        android:textSize="40dp"
+        android:layout_marginBottom="30dp"
+        android:padding="30dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

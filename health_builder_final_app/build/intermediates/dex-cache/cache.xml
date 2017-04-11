@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kayigwe/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/kayigwe/Desktop/All Apps/strengthbuilder/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-f37ff4d3b82985ca1f589a9094a05d04ceb8e60f.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/Desktop/All Apps/strengthbuilder/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/kayigwe/Desktop/All Apps/strengthbuilder/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-369a3c0c412f810adb9e454429d06d6d90021f47.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/kayigwe/Downloads/strengthbuilder/app/build/intermediates/pre-dexed/debug/gson-2.3-b575331143f83629bf27769a6e62bcd928ea991b.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/kayigwe/Downloads/strengthbuilder/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-9f9511a5925f9d2e490cf67c5cded98c9fd679c6.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/azure-notifications-handler/1.0.1/c322af100020e6db539f2aa367698d4b88fc453f/azure-notifications-handler-1.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c322af100020e6db539f2aa367698d4b88fc453f">
+        <dex dex="/Users/kayigwe/Downloads/strengthbuilder/app/build/intermediates/pre-dexed/debug/azure-notifications-handler-1.0.1-fea08a438b79b29d8364075da29e665b2899160b.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/kayigwe/Downloads/strengthbuilder/app/build/intermediates/pre-dexed/debug/okio-1.6.0-198ce6f09667476c6c4d51f7ed28ac7d32177131.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/18.0/cce0823396aa693798f8882e64213b1772032b09/guava-18.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="/Users/kayigwe/Downloads/strengthbuilder/app/build/intermediates/pre-dexed/debug/guava-18.0-362328ace91652b43dd9ccd5d489c283cb7bac82.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/azure-mobile-android/3.0/f89345b5695f55c1fa37768bef3c0207c847af/azure-mobile-android-3.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="00f89345b5695f55c1fa37768bef3c0207c847af">
+        <dex dex="/Users/kayigwe/Downloads/strengthbuilder/app/build/intermediates/pre-dexed/debug/azure-mobile-android-3.0-de50124c2085c7c3dee448c9a557dd10d5e1076f.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/Desktop/All Apps/strengthbuilder/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/kayigwe/Desktop/All Apps/strengthbuilder/app/build/intermediates/pre-dexed/debug/classes-76efebc23a00b98676eec3c2afc24132905af9e6.jar" />
+    </item>
+    <item
+        jar="/Users/kayigwe/Desktop/All Apps/strengthbuilder/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/kayigwe/Desktop/All Apps/strengthbuilder/app/build/intermediates/pre-dexed/debug/classes-57979544dea0951e26600924d930b29b4c4744ab.jar" />
+    </item>
+
+</items>
