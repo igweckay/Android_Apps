@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/topImage"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pictureone" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/secondImage"
+        android:background="@drawable/picturetwo"
+        android:layout_alignTop="@+id/thirdImage"
+        android:layout_alignRight="@+id/topImage"
+        android:layout_toRightOf="@+id/thirdImage"
+        android:layout_toEndOf="@+id/thirdImage"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="3dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/thirdImage"
+        android:background="@drawable/picturethree"
+        android:layout_above="@+id/forthImage"
+        android:layout_alignLeft="@+id/topImage"
+        android:layout_alignStart="@+id/topImage"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="6dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:id="@+id/forthImage"
+        android:background="@drawable/picturefour"
+        android:layout_margin="6dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
+
+
+
